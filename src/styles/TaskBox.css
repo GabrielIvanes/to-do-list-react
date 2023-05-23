@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task input {
+  width: 10px;
+  height: 10px;
+}
+.checked {
+  text-decoration: line-through;
+}
+.unchecked {
+  text-decoration: none;
+}
+.checked,
+.unchecked {
+  padding-right: 10px;
+}
